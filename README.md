@@ -30,7 +30,7 @@ Adapun beberapa fitur yang digunakan dalam sistem kasir ini yaitu:
 * `update_item_price()` : Melakukan perubahan pada harga item yang telah dimasukkan ke dalam daftar belanja.
 * `delete_item()` : Menghapus item yang ada di daftar belanja
 * `reset_item()` : Membatalkan transaksi atau menghapus seluruh barang dalam keranjang
-* `total_price()` : Menghitung seluruh total belanja yang ada di keranjang dan melakukan perhitungan diskon serta validasi dan menampilan total harga yang sesuai setelah di diskon.
+* `check_total_price()` : Menghitung seluruh total belanja yang ada di keranjang dan melakukan perhitungan diskon serta validasi dan menampilan total harga yang sesuai setelah di diskon.
 * `check_order()` : Menampilkan seluruh barang yang diinput di daftar belanja
 * `random_trnsct_id()` : Membuat ID transaksi otomatis.
 * `main_menu()` : Menampilkan menu utama untuk mempermudah transaksi
@@ -94,7 +94,7 @@ Ternyata setelah dipikir-pikir, Customer salah memasukkan item yang ingin dibela
 
 ### Test Case 5
 
-Setelah Customer selesai berbelanja, maka sistem akan menghitung total belanja yang harus dibayarkan menggunakan method `total_payment()`. Sebelum mengeluarkan output total akan menampilkan daftar belanja. Daftar belanja ketika melakukan pembayaran:
+Setelah Customer selesai berbelanja, maka sistem akan menghitung total belanja yang harus dibayarkan menggunakan method `check_total_price()`. Sebelum mengeluarkan output total akan menampilkan daftar belanja. Daftar belanja ketika melakukan pembayaran:
 ![12 check total price](https://user-images.githubusercontent.com/131349719/236112022-75cb21a3-c447-453e-9d37-617235a06c5a.png)
 
 ## Conclusion
