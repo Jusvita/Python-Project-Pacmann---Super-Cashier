@@ -25,35 +25,21 @@ Adapun beberapa fitur yang digunakan dalam sistem kasir ini yaitu:
 ![image](https://user-images.githubusercontent.com/131349719/235947274-3e83a147-4792-4bf0-937a-35d8654ad375.png)
 
 # Penjelasan Kode Program
-Transaction() : Class untuk menyimpan seluruh method untuk menjalankan proses transaksi.
-
-add_item() : Menambahkan barang ke daftar belanja dengan atribut nama item, jumlah item dan harga item ke dalam daftar belanja yang akan divalidasi datanya.
-
-update_item_name() : Melakukan perubahan pada nama item yang telah dimasukkan ke dalam daftar belanja.
-
-update_item_qty() : Melakukan perubahan pada jumlah item yang telah dimasukkan ke dalam daftar belanja.
-
-update_item_price() : Melakukan perubahan pada harga item yang telah dimasukkan ke dalam daftar belanja.
-
-delete_item() : Menghapus item yang ada di daftar belanja
-
-reset_item() : Membatalkan transaksi atau menghapus seluruh barang dalam keranjang
-
-total_price() : Menghitung seluruh total belanja yang ada di keranjang dan melakukan perhitungan diskon serta validasi dan menampilan total harga yang sesuai setelah di diskon.
-
-check_order() : Menampilkan seluruh barang yang diinput di daftar belanja
-
-random_trnsct_id() : Membuat ID transaksi otomatis.
-
-main_menu() : Menampilkan menu utama untuk mempermudah transaksi
-
-validate_add() : Sebagai validasi input sebelum item ditambahkan. Dengan format nama item harus alphabet, jumlah dan harga barang harus angka dengan nilai tidak boleh negatif.
-
-validate_update_name() : Sebagai validasi input pengubahan nama item yang harus alphabet.
-
-validate_update_qty() : Sebagai validasi input pengubahan jumlah item yang harus alphabet.
-
-validate_update_price() : Sebagai validasi input pengubahan harga item yang harus alphabet.
+* Transaction() : Class untuk menyimpan seluruh method untuk menjalankan proses transaksi.
+* add_item() : Menambahkan barang ke daftar belanja dengan atribut nama item, jumlah item dan harga item ke dalam daftar belanja yang akan divalidasi datanya.
+* update_item_name() : Melakukan perubahan pada nama item yang telah dimasukkan ke dalam daftar belanja.
+* update_item_qty() : Melakukan perubahan pada jumlah item yang telah dimasukkan ke dalam daftar belanja.
+* update_item_price() : Melakukan perubahan pada harga item yang telah dimasukkan ke dalam daftar belanja.
+* delete_item() : Menghapus item yang ada di daftar belanja
+* reset_item() : Membatalkan transaksi atau menghapus seluruh barang dalam keranjang
+* total_price() : Menghitung seluruh total belanja yang ada di keranjang dan melakukan perhitungan diskon serta validasi dan menampilan total harga yang sesuai setelah di diskon.
+* check_order() : Menampilkan seluruh barang yang diinput di daftar belanja
+* random_trnsct_id() : Membuat ID transaksi otomatis.
+* main_menu() : Menampilkan menu utama untuk mempermudah transaksi
+* validate_add() : Sebagai validasi input sebelum item ditambahkan. Dengan format nama item harus alphabet, jumlah dan harga barang harus angka dengan nilai tidak boleh negatif.
+* validate_update_name() : Sebagai validasi input pengubahan nama item yang harus alphabet.
+* validate_update_qty() : Sebagai validasi input pengubahan jumlah item yang harus alphabet.
+* validate_update_price() : Sebagai validasi input pengubahan harga item yang harus alphabet.
 
 # Penjelasan Alur Program
 1. Customer masuk ke dalam sistem kasir self-service, maka sistem akan otomatis menampilkan ID transaksi customer
@@ -71,14 +57,10 @@ Berikut merupakan menu utama yang akan keluar di terminal
 **Test Case 1**
 
 Customer ingin menambahkan item baru menggunakan method add_item(). Item yang ditambahkan adalah sebagai berikut:
-
-• Nama item: Potato, Qty: 5, Harga: 20000
-
-• Nama item: Susu, Qty: 12, Harga: 15000
-
-• Nama item: Mie, Qty: 24, Harga: 3000
-
-• Nama item: Saos, Qty: 1, Harga: 35000
+* Nama item: Potato, Qty: 5, Harga: 20000
+* Nama item: Susu, Qty: 12, Harga: 15000
+* Nama item: Mie, Qty: 24, Harga: 3000
+* Nama item: Saos, Qty: 1, Harga: 35000
 
 ![2 add item](https://user-images.githubusercontent.com/131349719/236110196-88a3f3ba-2172-4bd7-8aee-1ea0d9ab0d23.png)
 
@@ -122,4 +104,5 @@ Sistem kasir self-service ini dibuat untuk mengelola proses transaksi di superma
 
 # Future Work
 * Sistem ini masih harus terus diinovasi dan dikembangkan diantaranya dapat membuat library (database) barang-barang yang tersedia di supermarket beserta jumlah yang
-* tersedia dan harga per itemnya, kemudian membuat sistem yang dapat auto save (menyimpan secara otomatis) item yang telah di input kedalam keranjang sehingga meskipun ^ keluar dari sistem, daftar belanja tersebut masih tersedia.  
+tersedia dan harga per itemnya
+* Membuat sistem yang dapat auto save (menyimpan secara otomatis) item yang telah di input kedalam keranjang sehingga meskipun keluar dari sistem, daftar belanja tersebut masih tersedia.  
