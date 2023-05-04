@@ -45,6 +45,7 @@ Customer ingin menambahkan item baru menggunakan method add_item(). Item yang di
 • Nama item: Saos, Qty: 1, Harga: 35000
 
 ![2 add item](https://user-images.githubusercontent.com/131349719/236110196-88a3f3ba-2172-4bd7-8aee-1ea0d9ab0d23.png)
+
 Daftar belanja setelah ditambahkan
 ![3 Check order](https://user-images.githubusercontent.com/131349719/236110215-573f835c-ed98-4d1e-bb41-d3d2f37c0ee5.png)
 
@@ -54,10 +55,13 @@ Ternyata Customer salah menginput nama item (Mie - Mie Goreng) jumlah item  pota
 
 Untuk update_item_name()
 ![4 update item name](https://user-images.githubusercontent.com/131349719/236111456-667cd696-695d-497f-b345-be7c30342954.png)
+
 Untuk update_item_qty()
 ![6 update item qty](https://user-images.githubusercontent.com/131349719/236111502-f447ccd6-b10a-4cc1-892f-7ada9e26b35a.png)
+
 Untuk update_item_price()
 ![8 update item price](https://user-images.githubusercontent.com/131349719/236111567-4ff8fa47-a2a4-4c4d-870c-05322de42e6f.png)
+
 Maka setelah diperbarui menjadi
 ![9 check update item price](https://user-images.githubusercontent.com/131349719/236111612-ec068c02-1797-4fc0-98c3-f481f12dfa7f.png)
 
