@@ -23,21 +23,21 @@ Adapun beberapa fitur yang digunakan dalam sistem kasir ini yaitu:
 ![image](https://user-images.githubusercontent.com/131349719/235947274-3e83a147-4792-4bf0-937a-35d8654ad375.png)
 
 ## Penjelasan Kode Program
-* Transaction() : Class untuk menyimpan seluruh method untuk menjalankan proses transaksi.
-* add_item() : Menambahkan barang ke daftar belanja dengan atribut nama item, jumlah item dan harga item ke dalam daftar belanja yang akan divalidasi datanya.
-* update_item_name() : Melakukan perubahan pada nama item yang telah dimasukkan ke dalam daftar belanja.
-* update_item_qty() : Melakukan perubahan pada jumlah item yang telah dimasukkan ke dalam daftar belanja.
-* update_item_price() : Melakukan perubahan pada harga item yang telah dimasukkan ke dalam daftar belanja.
-* delete_item() : Menghapus item yang ada di daftar belanja
-* reset_item() : Membatalkan transaksi atau menghapus seluruh barang dalam keranjang
-* total_price() : Menghitung seluruh total belanja yang ada di keranjang dan melakukan perhitungan diskon serta validasi dan menampilan total harga yang sesuai setelah di diskon.
-* check_order() : Menampilkan seluruh barang yang diinput di daftar belanja
-* random_trnsct_id() : Membuat ID transaksi otomatis.
-* main_menu() : Menampilkan menu utama untuk mempermudah transaksi
-* validate_add() : Sebagai validasi input sebelum item ditambahkan. Dengan format nama item harus alphabet, jumlah dan harga barang harus angka dengan nilai tidak boleh negatif.
-* validate_update_name() : Sebagai validasi input pengubahan nama item yang harus alphabet.
-* validate_update_qty() : Sebagai validasi input pengubahan jumlah item yang harus alphabet.
-* validate_update_price() : Sebagai validasi input pengubahan harga item yang harus alphabet.
+* `Transaction()` : Class untuk menyimpan seluruh method untuk menjalankan proses transaksi.
+* `add_item()` : Menambahkan barang ke daftar belanja dengan atribut nama item, jumlah item dan harga item ke dalam daftar belanja yang akan divalidasi datanya.
+* `update_item_name()` : Melakukan perubahan pada nama item yang telah dimasukkan ke dalam daftar belanja.
+* `update_item_qty()` : Melakukan perubahan pada jumlah item yang telah dimasukkan ke dalam daftar belanja.
+* `update_item_price()` : Melakukan perubahan pada harga item yang telah dimasukkan ke dalam daftar belanja.
+* `delete_item()` : Menghapus item yang ada di daftar belanja
+* `reset_item()` : Membatalkan transaksi atau menghapus seluruh barang dalam keranjang
+* `total_price()` : Menghitung seluruh total belanja yang ada di keranjang dan melakukan perhitungan diskon serta validasi dan menampilan total harga yang sesuai setelah di diskon.
+* `check_order()` : Menampilkan seluruh barang yang diinput di daftar belanja
+* `random_trnsct_id()` : Membuat ID transaksi otomatis.
+* `main_menu()` : Menampilkan menu utama untuk mempermudah transaksi
+* `validate_add()` : Sebagai validasi input sebelum item ditambahkan. Dengan format nama item harus alphabet, jumlah dan harga barang harus angka dengan nilai tidak boleh negatif.
+* `validate_update_name()` : Sebagai validasi input pengubahan nama item yang harus alphabet.
+* `validate_update_qty()` : Sebagai validasi input pengubahan jumlah item yang harus alphabet.
+* `validate_update_price()` : Sebagai validasi input pengubahan harga item yang harus alphabet.
 
 ## Penjelasan Alur Program
 1. Customer masuk ke dalam sistem kasir self-service, maka sistem akan otomatis menampilkan ID transaksi customer
@@ -54,7 +54,7 @@ Berikut merupakan menu utama yang akan keluar di terminal
 
 ### Test Case 1
 
-Customer ingin menambahkan item baru menggunakan method add_item(). Item yang ditambahkan adalah sebagai berikut:
+Customer ingin menambahkan item baru menggunakan method `add_item()`. Item yang ditambahkan adalah sebagai berikut:
 * Nama item: Potato, Qty: 5, Harga: 20000
 * Nama item: Susu, Qty: 12, Harga: 15000
 * Nama item: Mie, Qty: 24, Harga: 3000
@@ -67,15 +67,15 @@ Daftar belanja setelah ditambahkan
 
 ### Test Case 2
 
-Ternyata Customer salah menginput nama item (Mie - Mie Goreng) jumlah item  potato dan harga susu yang ingin dibeli, maka Customer dapat menggunakan method update_item_name() update__item_qty() dan update_item_price() untuk memperbarui transaksi tersebut.
+Ternyata Customer salah menginput nama item (Mie - Mie Goreng) jumlah item  potato dan harga susu yang ingin dibeli, maka Customer dapat menggunakan method `update_item_name()` `update__item_qty()` dan `update_item_price()` untuk memperbarui transaksi tersebut.
 
-Untuk update_item_name()
+Untuk `update_item_name()`
 ![4 update item name](https://user-images.githubusercontent.com/131349719/236111456-667cd696-695d-497f-b345-be7c30342954.png)
 
-Untuk update_item_qty()
+Untuk `update_item_qty()`
 ![6 update item qty](https://user-images.githubusercontent.com/131349719/236111502-f447ccd6-b10a-4cc1-892f-7ada9e26b35a.png)
 
-Untuk update_item_price()
+Untuk `update_item_price()`
 ![8 update item price](https://user-images.githubusercontent.com/131349719/236111567-4ff8fa47-a2a4-4c4d-870c-05322de42e6f.png)
 
 Maka setelah diperbarui menjadi
@@ -83,18 +83,18 @@ Maka setelah diperbarui menjadi
 
 ### Test Case 3
 
-Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka Customer dapat menggunakan method delete_item() untuk menghapus item yang dipilih. Item yang ingin dihapus adalah Saos.
+Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka Customer dapat menggunakan method `delete_item()` untuk menghapus item yang dipilih. Item yang ingin dihapus adalah Saos.
 ![10 delete item](https://user-images.githubusercontent.com/131349719/236111808-c1f98169-fe24-418a-807d-95e54bc1e92a.png)
 ![11 check delete item](https://user-images.githubusercontent.com/131349719/236111830-f1fcb792-ff67-4695-89ba-8cc788ced582.png)
 
 ### Test Case 4
 
-Ternyata setelah dipikir-pikir, Customer salah memasukkan item yang ingin dibelanjakan. Daripada menghapusnya satu-satu, maka Customer cukup menggunakan method reset_transaction() untuk menghapus semua item yang sudah ditambahkan. Daftar belanja setelah diperbarui:
+Ternyata setelah dipikir-pikir, Customer salah memasukkan item yang ingin dibelanjakan. Daripada menghapusnya satu-satu, maka Customer cukup menggunakan method `reset_transaction()` untuk menghapus semua item yang sudah ditambahkan. Daftar belanja setelah diperbarui:
 ![13 reset item all](https://user-images.githubusercontent.com/131349719/236111921-231becae-6fda-47f2-ac31-5ead119388de.png)
 
 ### Test Case 5
 
-Setelah Customer selesai berbelanja, maka sistem akan menghitung total belanja yang harus dibayarkan menggunakan method total_payment(). Sebelum mengeluarkan output total akan menampilkan daftar belanja. Daftar belanja ketika melakukan pembayaran:
+Setelah Customer selesai berbelanja, maka sistem akan menghitung total belanja yang harus dibayarkan menggunakan method `total_payment()`. Sebelum mengeluarkan output total akan menampilkan daftar belanja. Daftar belanja ketika melakukan pembayaran:
 ![12 check total price](https://user-images.githubusercontent.com/131349719/236112022-75cb21a3-c447-453e-9d37-617235a06c5a.png)
 
 ## Conclusion
