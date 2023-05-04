@@ -56,7 +56,14 @@ validate_update_qty() : Sebagai validasi input pengubahan jumlah item yang harus
 validate_update_price() : Sebagai validasi input pengubahan harga item yang harus alphabet.
 
 # Penjelasan Alur Program
-
+1. Customer masuk ke dalam sistem kasir self-service, maka sistem akan otomatis menampilkan ID transaksi customer
+2. Customer memasukkan angka '1' untuk menginput nama item, jumlah item dan harga item yang ingin dibeli ke dalam daftar belanja.
+3. Jika customer melakukan kekeliruan penginputan dan ingin memperbaru data di keranjang maka customer dapat memilih angka '2' untuk mengubah nama item, '3' untuk mengubah jumlah item dan '4' untuk mengubah harga item.
+4. Customer dapat menginput angka '5' jika ingin melakukan Delete item.
+5. Jika ingin membatalkan seluruh transaksi, customer dapat menginput angka '6' untuk reset transaction.
+6. Setelah selesai menginput seluruh item yang ingin dibeli, customer dapat melanjutkannya dengan menginput angka '7' untuk mengecheck daftar belanja di keranjang 
+7. Jika telah menyetujui seluruh item dikeranjang maka dapat menginput angka '8' untuk melakukan check total harga yang harus dibayar setelah di diskon.
+8. Selanjutnya dapat menginput angka '9' untuk keluar dari sistem transaksi.
 # Test Case
 Berikut merupakan menu utama yang akan keluar di terminal
 ![1 welcome menu](https://user-images.githubusercontent.com/131349719/236109727-fd8b9dfe-a0e9-4097-b2e3-905b561bf78e.png)
