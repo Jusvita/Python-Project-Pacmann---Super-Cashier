@@ -2,7 +2,7 @@
 Project ini dibuat oleh Jusvita sebagai syarat kelulusan program TTS 3 Pacmann
 
 ## Background project
-^ Andi merupakan pemilik supermarket besar yang berencana untuk menginovasi bisnisnya. Andi berkeinginan membuat sistem kasir self-service di supermarketnya agar para customer dapat melakukan transaksi jarak jauh tanpa harus datang ke supermarket. Dengan adanya sistem kasir ini akan sangat membantu untuk melakukan transaksi pembelian, update barang dan aktivitas transaksi lainnya di sistem kasir tersebut.
+Andi merupakan pemilik supermarket besar yang berencana untuk menginovasi bisnisnya. Andi berkeinginan membuat sistem kasir self-service di supermarketnya agar para customer dapat melakukan transaksi jarak jauh tanpa harus datang ke supermarket. Dengan adanya sistem kasir ini akan sangat membantu untuk melakukan transaksi pembelian, update barang dan aktivitas transaksi lainnya di sistem kasir tersebut.
 
 ## Objective and Requirements
 ### Objective
@@ -23,8 +23,8 @@ Adapun beberapa fitur yang digunakan dalam sistem kasir ini yaitu:
 ![image](https://user-images.githubusercontent.com/131349719/235947274-3e83a147-4792-4bf0-937a-35d8654ad375.png)
 
 ## Penjelasan Kode Program
-* 'Transaction()' : Class untuk menyimpan seluruh method untuk menjalankan proses transaksi.
-* 'add_item()' : Menambahkan barang ke daftar belanja dengan atribut nama item, jumlah item dan harga item ke dalam daftar belanja yang akan divalidasi datanya.
+* Transaction() : Class untuk menyimpan seluruh method untuk menjalankan proses transaksi.
+* add_item() : Menambahkan barang ke daftar belanja dengan atribut nama item, jumlah item dan harga item ke dalam daftar belanja yang akan divalidasi datanya.
 * update_item_name() : Melakukan perubahan pada nama item yang telah dimasukkan ke dalam daftar belanja.
 * update_item_qty() : Melakukan perubahan pada jumlah item yang telah dimasukkan ke dalam daftar belanja.
 * update_item_price() : Melakukan perubahan pada harga item yang telah dimasukkan ke dalam daftar belanja.
@@ -54,7 +54,7 @@ Berikut merupakan menu utama yang akan keluar di terminal
 
 ### Test Case 1
 
-Customer ingin menambahkan item baru menggunakan method 'add_item()'. Item yang ditambahkan adalah sebagai berikut:
+Customer ingin menambahkan item baru menggunakan method add_item(). Item yang ditambahkan adalah sebagai berikut:
 * Nama item: Potato, Qty: 5, Harga: 20000
 * Nama item: Susu, Qty: 12, Harga: 15000
 * Nama item: Mie, Qty: 24, Harga: 3000
