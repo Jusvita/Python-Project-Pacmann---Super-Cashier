@@ -45,6 +45,36 @@ Customer ingin menambahkan item baru menggunakan method add_item(). Item yang di
 • Nama item: Saos, Qty: 1, Harga: 35000
 
 ![2 add item](https://user-images.githubusercontent.com/131349719/236110196-88a3f3ba-2172-4bd7-8aee-1ea0d9ab0d23.png)
+Daftar belanja setelah ditambahkan
 ![3 Check order](https://user-images.githubusercontent.com/131349719/236110215-573f835c-ed98-4d1e-bb41-d3d2f37c0ee5.png)
 
+**Test Case 2**
 
+Ternyata Customer salah menginput nama item (Mie - Mie Goreng) jumlah item  potato dan harga susu yang ingin dibeli, maka Customer dapat menggunakan method update_item_name() update__item_qty() dan update_item_price() untuk memperbarui transaksi tersebut.
+
+Untuk update_item_name()
+![4 update item name](https://user-images.githubusercontent.com/131349719/236111456-667cd696-695d-497f-b345-be7c30342954.png)
+Untuk update_item_qty()
+![6 update item qty](https://user-images.githubusercontent.com/131349719/236111502-f447ccd6-b10a-4cc1-892f-7ada9e26b35a.png)
+Untuk update_item_price()
+![8 update item price](https://user-images.githubusercontent.com/131349719/236111567-4ff8fa47-a2a4-4c4d-870c-05322de42e6f.png)
+Maka setelah diperbarui menjadi
+![9 check update item price](https://user-images.githubusercontent.com/131349719/236111612-ec068c02-1797-4fc0-98c3-f481f12dfa7f.png)
+
+**Test Case 3**
+
+Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka Customer dapat menggunakan method delete_item() untuk menghapus item yang dipilih. Item yang ingin dihapus adalah Saos.
+![10 delete item](https://user-images.githubusercontent.com/131349719/236111808-c1f98169-fe24-418a-807d-95e54bc1e92a.png)
+![11 check delete item](https://user-images.githubusercontent.com/131349719/236111830-f1fcb792-ff67-4695-89ba-8cc788ced582.png)
+
+**Test Case 4**
+
+Ternyata setelah dipikir-pikir, Customer salah memasukkan item yang ingin dibelanjakan. Daripada menghapusnya satu-satu, maka Customer cukup menggunakan method reset_transaction() untuk menghapus semua item yang sudah ditambahkan. Daftar belanja setelah diperbarui:
+![13 reset item all](https://user-images.githubusercontent.com/131349719/236111921-231becae-6fda-47f2-ac31-5ead119388de.png)
+
+**Test Case 5**
+
+Setelah Customer selesai berbelanja, maka sistem akan menghitung total belanja yang harus dibayarkan menggunakan method total_payment(). Sebelum mengeluarkan output total akan menampilkan daftar belanja. Daftar belanja ketika melakukan pembayaran:
+![12 check total price](https://user-images.githubusercontent.com/131349719/236112022-75cb21a3-c447-453e-9d37-617235a06c5a.png)
+
+# Conclusion
