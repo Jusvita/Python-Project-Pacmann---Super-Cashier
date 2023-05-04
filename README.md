@@ -30,3 +30,21 @@ Adapun beberapa fitur yang digunakan dalam sistem kasir ini yaitu:
 
 # Test Case
 Berikut merupakan menu utama yang akan keluar di terminal
+![1 welcome menu](https://user-images.githubusercontent.com/131349719/236109727-fd8b9dfe-a0e9-4097-b2e3-905b561bf78e.png)
+
+**Test Case 1**
+
+Customer ingin menambahkan item baru menggunakan method add_item(). Item yang ditambahkan adalah sebagai berikut:
+
+• Nama item: Potato, Qty: 5, Harga: 20000
+
+• Nama item: Susu, Qty: 12, Harga: 15000
+
+• Nama item: Mie, Qty: 24, Harga: 3000
+
+• Nama item: Saos, Qty: 1, Harga: 35000
+
+![2 add item](https://user-images.githubusercontent.com/131349719/236110196-88a3f3ba-2172-4bd7-8aee-1ea0d9ab0d23.png)
+![3 Check order](https://user-images.githubusercontent.com/131349719/236110215-573f835c-ed98-4d1e-bb41-d3d2f37c0ee5.png)
+
+
