@@ -25,6 +25,35 @@ Adapun beberapa fitur yang digunakan dalam sistem kasir ini yaitu:
 ![image](https://user-images.githubusercontent.com/131349719/235947274-3e83a147-4792-4bf0-937a-35d8654ad375.png)
 
 # Penjelasan Kode Program
+Transaction() : Class untuk menyimpan seluruh method untuk menjalankan proses transaksi.
+
+add_item() : Menambahkan barang ke daftar belanja dengan atribut nama item, jumlah item dan harga item ke dalam daftar belanja yang akan divalidasi datanya.
+
+update_item_name() : Melakukan perubahan pada nama item yang telah dimasukkan ke dalam daftar belanja.
+
+update_item_qty() : Melakukan perubahan pada jumlah item yang telah dimasukkan ke dalam daftar belanja.
+
+update_item_price() : Melakukan perubahan pada harga item yang telah dimasukkan ke dalam daftar belanja.
+
+delete_item() : Menghapus item yang ada di daftar belanja
+
+reset_item() : Membatalkan transaksi atau menghapus seluruh barang dalam keranjang
+
+total_price() : Menghitung seluruh total belanja yang ada di keranjang dan melakukan perhitungan diskon serta validasi dan menampilan total harga yang sesuai setelah di diskon.
+
+check_order() : Menampilkan seluruh barang yang diinput di daftar belanja
+
+random_trnsct_id() : Membuat ID transaksi otomatis.
+
+main_menu() : Menampilkan menu utama untuk mempermudah transaksi
+
+validate_add() : Sebagai validasi input sebelum item ditambahkan. Dengan format nama item harus alphabet, jumlah dan harga barang harus angka dengan nilai tidak boleh negatif.
+
+validate_update_name() : Sebagai validasi input pengubahan nama item yang harus alphabet.
+
+validate_update_qty() : Sebagai validasi input pengubahan jumlah item yang harus alphabet.
+
+validate_update_price() : Sebagai validasi input pengubahan harga item yang harus alphabet.
 
 # Penjelasan Alur Program
 
