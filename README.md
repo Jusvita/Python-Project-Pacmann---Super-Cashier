@@ -118,3 +118,7 @@ Setelah Customer selesai berbelanja, maka sistem akan menghitung total belanja y
 ![12 check total price](https://user-images.githubusercontent.com/131349719/236112022-75cb21a3-c447-453e-9d37-617235a06c5a.png)
 
 # Conclusion
+Sistem kasir self-service ini dibuat untuk mengelola proses transaksi di supermarket agar lebih mudah, efektif dan efisien. Dalam project ini telah dibuat sitem kasir yang dengan beberapa fitur dapat membantu proses transaksi jarak jauh diantaranya dapat menginput item yang ingin dibeli, memperbarui item, menghapus item, membatalkan transaksi dan mengecheck total harga keseluruhan di daftar belanja. Sehingga hal ini membuat customer dapat dengan mudah belanja di supermarket Andi tanpa harus datang langsung ke supermarket.
+
+#Future Work
+Sistem ini masih harus terus diinovasi dan dikembangkan diantaranya dapat membuat library (database) barang-barang yang tersedia di supermarket beserta jumlah yang tersedia dan harga per itemnya, kemudian membuat sistem yang dapat auto save (menyimpan secara otomatis) item yang telah di input kedalam keranjang sehingga meskipun keluar dari sistem, daftar belanja tersebut masih tersedia.  
