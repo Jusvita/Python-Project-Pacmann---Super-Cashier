@@ -25,3 +25,8 @@ Adapun beberapa fitur yang digunakan dalam sistem kasir ini yaitu:
 ![image](https://user-images.githubusercontent.com/131349719/235947274-3e83a147-4792-4bf0-937a-35d8654ad375.png)
 
 # Penjelasan Kode Program
+
+# Penjelasan Alur Program
+
+# Test Case
+Berikut merupakan menu utama yang akan keluar di terminal
